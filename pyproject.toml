@@ -1,0 +1,14 @@
+[project]
+name = "record-verifier"
+version = "0.1.0"
+description = "Independent record verification tool"
+requires-python = ">=3.10"
+
+dependencies = [
+    "pandas",
+    "python-dotenv"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
