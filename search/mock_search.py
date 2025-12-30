@@ -1,6 +1,6 @@
 def search(name, location):
     """
-    Mock search results.
+    NewsAPI / GNews search results.
     NewsAPI / GNews
     """
     MOCK_DB = {
