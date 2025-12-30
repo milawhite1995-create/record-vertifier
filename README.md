@@ -11,3 +11,13 @@ This tool checks whether independent public reporting exists for named individua
 ```bash
 pip install -e .
 python scripts/run_pipeline.py
+---
+
+# 5️⃣ Commit & Push
+
+```bash
+git add .
+git commit -m "Initial working verification pipeline"
+git branch -M main
+git remote add origin https://github.com/YOURNAME/record-verifier.git
+git push -u origin main
