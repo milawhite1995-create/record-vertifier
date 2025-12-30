@@ -1,7 +1,7 @@
 def search(name, location):
     """
-    Mock search results.
-    Replace later with real APIs.
+    NewsAPI / GNews search results.
+    NewsAPI / GNews
     """
     MOCK_DB = {
         "Kristoffer McAlpine": [
