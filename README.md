@@ -1,37 +1,13 @@
-# record-vertifier
-record-verifier/
-├── README.md
-├── pyproject.toml
-├── .gitignore
-├── .env.example
-│
-├── data/
-│   ├── raw/
-│   │   └── entries.csv
-│   ├── processed/
-│   └── reports/
-│
-├── src/
-│   └── record_verifier/
-│       ├── __init__.py
-│       ├── config/
-│       │   ├── settings.py
-│       │   └── sources.py
-│       ├── ingestion/
-│       │   └── load_entries.py
-│       ├── search/
-│       │   └── mock_search.py
-│       ├── analysis/
-│       │   ├── credibility.py
-│       │   ├── verdict.py
-│       │   └── risk.py
-│       ├── reporting/
-│       │   └── export.py
-│       └── cli/
-│           └── main.py
-│
-├── tests/
-│   └── test_verdict.py
-│
-└── scripts/
-    └── run_pipeline.py
+# Record Verifier
+
+This tool checks whether independent public reporting exists for named individuals.
+
+## ⚠️ Legal Notice
+- This software does NOT determine guilt.
+- Absence of records does not imply innocence or guilt.
+- Results must not be published as accusations.
+
+## Usage
+```bash
+pip install -e .
+python scripts/run_pipeline.py
